@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:dog_life/pages/reset-password.page.dart';
+import 'package:dog_life/pages/home.page.dart';
+import 'package:dog_life/pages/signup.page.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -57,12 +60,35 @@ class LoginPage extends StatelessWidget {
               child: FlatButton(
                 child: Text(
                   'Recuperar Senha',
-                  textAlign: TextAlign.center,
+                  textAlign: TextAlign.right,
 
                 ),
-                onPressed: () => {},
+                // onPressed: () => {
+                //   Navigator.push(
+                //     context, 
+                //     MaterialPageRoute(
+                //       builder: (context) => ResetPasswordPage(),
+                //     ),
+                //   )
+                // }
+                // onPressed: () => {
+                //   Navigator.push(
+                //     context,
+                //     MaterialPageRoute(
+                //       builder: (context) => ResetPasswordPage(),
+                //     )
+                //   )
+                // },
+                 onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => ResetPasswordPage(),
+                    ),
+                  );
+                },
                 
-              )
+              ),
             ),
             SizedBox(height: 20),
 
