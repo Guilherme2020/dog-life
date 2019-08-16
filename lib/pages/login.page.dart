@@ -79,7 +79,7 @@ class LoginPage extends StatelessWidget {
                 //     )
                 //   )
                 // },
-                 onPressed: () {
+                onPressed: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
@@ -184,7 +184,14 @@ class LoginPage extends StatelessWidget {
                   "Cadastre-se",
                   textAlign: TextAlign.center,
                 ),
-                onPressed: () => {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => SignupPage(),
+                    ),
+                  );
+                },
               ),
             )
 
