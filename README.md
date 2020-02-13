@@ -1,6 +1,30 @@
 # dog_life
 
-A new Flutter application.
+A Flutter application interface dog.
+
+design credits: https://www.behance.net/gallery/73935801/Doglife-Ui-Kit-Free-for-Adobe-XD
+
+## Screenshots
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="screenshots/login.png" alt="License MIT">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="screenshots/form.png" alt="License MIT">
+  </a>
+</p>
+
+
+
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="screenshots/pass.png" alt="License MIT">
+  </a>
+</p>
 
 ## Getting Started
 
